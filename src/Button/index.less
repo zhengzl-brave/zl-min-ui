@@ -1,0 +1,23 @@
+@import '../style/common.less';
+.@{btnPre} {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #333;
+  &-highlight {
+    background-color: #325dff;
+    color: #fff;
+  }
+  &-disabled {
+    background-color: #ccc;
+    color: #999;
+    border: 1px solid #999;
+    cursor: not-allowed;
+  }
+}
